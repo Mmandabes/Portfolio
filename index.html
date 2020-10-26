@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevMandabes Portfolio website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger">
+                </span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>M. Mandabes</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img class="intro__img" src="img/1stlook_fotoshoots_03.jpg" alt="an avatar composite sketch representing me">
+        </section>
+
+        <!-- My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What i do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>I build fast, interactive websites, Mobile-first. This also may include a CMS, API's or other integrations..</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Motivation</h3>
+                    <p>The work that I am most interested in is helping you get your idea out the world, using your feedback to get to the end product you deserve.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>Design should always start with the user experience in mind, simplicity and ease of access to all users, using The ADA standard.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based in Romania</p>
+            
+            <div class="about-me__body">
+                <p>Dedicated and efficient full stack developper with 8+ years experience in freelance, running a website,
+                     and taking requests from clients, certified as a web developper and front End developper.</p>
+                <p>I am dedicated to my work, Every website should be built with two primary goals: Firstly,
+                     it needs to work perfectly across all devices, and browsers. Secondly,
+                     it needs to be easy to use, fast and responsive.</p>
+            </div>
+            
+            <img class="about-me__img" src="img/1stlook_fotoshoots_03.jpg" alt="Jane leaning against a bus">
+         </section>
+
+
+          <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://mmandabes.github.io/Challenge-Trivia-Game/" target="_blank" class="portfolio__item">
+                    <img src="img/Dev-Trivia-App-2.jpg" alt="Trivia game" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://mmandabes.github.io/A-Punk-Api-Beer-App/" target="_blank" class="portfolio__item">
+                    <img src="img/Punk-api.jpg" alt="punk api app" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://mmandabes.github.io/Js-Html-TvShow-Search/" target="_blank" class="portfolio__item">
+                    <img src="img/tv-search.jpg" alt="tv show search" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://codepen.io/mandabes/full/JjYMyRw"  target="_blank" class="portfolio__item">
+                    <img src="img/social-survey.jpg" alt="Social Network Survey" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://mmandabes.github.io/Dev-gen-jokes-api/" class="portfolio__item">
+                    <img src="img/random-joke.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Webinar-subscription.jpg" alt="bbq webinar" class="portfolio__img">
+                </a>
+                
+                
+            </div>
+        </section>
+
+             <!-- Footer -->
+        <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:marouanemandabes@gmail.com" class="footer__link">marouanemandabes@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://codepen.io/mandabes" target="_blank">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.freecodecamp.org/fcc7f18b9dd-0ad0-4814-9f02-e8b411f9e965" target="_blank">
+                            <i class="fab fa-free-code-camp"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/mmandabes" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
