@@ -374,7 +374,6 @@ header {
     
     .about-me__img {
         grid-area: img;
-        height:100%;
         object-fit: cover;
         position: relative;
         z-index: 2;
